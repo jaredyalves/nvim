@@ -62,4 +62,8 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Set color columns to visualize code width.
+-- 80 and 120 are common limits for code lines.
+vim.opt.colorcolumn = { '80', '120' }
+
 -- vim: ts=2 sts=2 sw=2 et
